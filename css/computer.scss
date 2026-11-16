@@ -1,0 +1,1087 @@
+
+.inside-product-list-wrapper{
+  padding-top: 0;
+  .top-subhead-wrapp{
+    padding: 115px 20px 100px;
+    margin-bottom: 118px;
+    position: relative;
+    overflow-x: clip;
+    // height: 100%;
+    // width: 100%;
+    @media(max-width: 1800px){
+      padding: 99px 20px 100px;
+      margin-bottom: 84px;
+    }
+    @media(max-width: 1680px){
+      padding-top: 93px;
+      padding-bottom: 88px;
+    }
+    @media(max-width: 1440px){
+      padding-top: 90px;
+      padding-bottom: 64px;
+    }
+    @media(max-width: 1366px){
+      padding: 77px 20px 80px;
+      margin-bottom: 50px;
+    }
+    @media(max-width: 991px){
+      margin-bottom: 50px;
+    }
+    @media(max-width: 767px){
+      padding: 50px 20px 50px;
+      margin-bottom: 20px;
+    }
+    .container{
+      @media(max-width: 767px){
+        max-width: 100%;
+      }
+    }
+    p{
+      font-size: 35px;
+      font-family: 'helvetica_neue_lt_std65Md';
+      color: #0C467A;
+      width: 100%;
+      text-align: center;
+      line-height: 1.6em;
+      @media(max-width: 1800px){
+        font-size: 31px;
+      }
+      @media(max-width: 1680px){
+        font-size: 30px;
+      }
+      @media(max-width: 1440px){
+        font-size: 26px;
+      }
+      @media(max-width: 1366px){
+        font-size: 24px;
+      }
+      @media(max-width: 1280px){
+        font-size: 23px;
+      }
+      @media(max-width: 1024px){
+        font-size: 18px;
+      }
+      @media(max-width: 991px){
+        font-size: 16px;
+      }
+      @media(max-width: 767px){
+        font-size: 19px;
+      }
+  
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+    &:before{
+      content: '';
+      // background-image: url(../img/curve1.svg);
+      background-image: url(../img/computer-top-right-curve.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      z-index: -1;
+      right: -156px;
+      width: 841px;
+      height: 800px;
+      top: -245px;
+      @media(max-width: 1800px){
+        right: -175px;
+        width: 753px;
+        height: 752px;
+        top: -198px;
+      }
+      @media(max-width: 1680px){
+        right: -156px;
+        width: 725px;
+        height: 713px;
+        top: -198px;
+      }
+      @media(max-width: 1440px){
+        right: -174px;
+        width: 679px;
+        height: 660px;
+        top: -173px;
+      }
+      @media(max-width: 1366px){
+        right: -73px;
+        width: 500px;
+        height: 500px;
+        top: -124px;
+      }
+      @media(max-width: 1200px){
+        right: -65px;
+        width: 450px;
+        height: 450px;
+        top: -90px;
+      }
+      @media(max-width: 1080px){
+        width: 430px;
+        height: 430px;
+        right: 0;
+      }
+      @media(max-width: 991px){
+        right: -93px;
+        right: 0;
+        top: -109px;
+      }
+      @media(max-width: 767px){
+        width: 300px;
+        height: 300px;
+      }
+      @media(max-width: 320px){
+        width: 300px;
+        height: 300px;
+            right: -28%;
+    top: -109px;
+
+      }
+    }
+  }
+  .product-list-wrapp{
+    .list{
+      > li{
+        // added by pradnya - 7-10-2023
+        padding-bottom: 80px;
+        @media(max-width: 1800px){
+          padding-bottom: 150px;
+        }
+        // added by pradnya - 7-10-2023
+        @media(max-width: 1680px){
+          padding-bottom: 130px;
+        }
+        @media(max-width: 1440px){
+          padding-bottom: 100px;
+        }
+        @media(max-width: 1200px){
+          padding-bottom: 80px;
+        }
+        @media(max-width: 1080px){
+          padding-bottom: 60px;
+        }
+        @media(max-width: 767px){
+          padding-bottom: 50px;
+        }
+        .container{
+          display: flex;
+          flex-wrap: wrap;
+          align-items: flex-start;
+          overflow-x: clip;
+          position: relative;
+          overflow: hidden;
+          height: 100%;
+          width: 100%;
+          padding-top: 35px;
+          max-width: 1610px;
+          margin-left: auto;
+          margin-right: 0;
+          @media(max-width: 1800px){
+            max-width: 84%;
+          }
+          @media(max-width: 1080px){
+            max-width: 90%;
+          }
+          @media(max-width: 991px){
+            max-width: 95%;
+          }
+          @media(max-width: 767px){
+            max-width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 0;
+            margin-left: auto;
+            margin-right: auto;
+            flex-direction: column;
+          }
+          h3{
+            color: #0C467A;
+            width: 100%;
+            @media(max-width: 767px){
+              order: 0;
+            }
+          }
+          .product-txt{
+            width: 40%;
+            padding-top: 10px;
+            @media(max-width: 767px){
+              width: 100%;
+              order: 2;
+            }
+            .prod-small-info{
+              p{
+                line-height: 1.85em;
+                margin-bottom: 34px;
+                @media(max-width: 1680px){
+                  line-height: 1.65em;
+                  margin-bottom: 33px;
+                }
+                @media(max-width: 1366px){
+                  line-height: 1.69em;
+                  margin-bottom: 40px;
+                }
+                margin-bottom: 24px;
+                &:last-child{
+                  margin-bottom: 0 !important;
+                }
+              }
+            }
+            
+            .brand-list-wrapp{
+              margin-top: 20px;
+              @media(max-width: 1680px){
+                margin-top: 17px;
+              }
+              .brand-head{
+                margin-bottom: 0;
+                line-height: 1.5em;
+              }
+              .brand-list{
+                display: flex;
+                align-items: center;
+                margin-top: 9px;
+                @media(max-width: 1366px){
+                  margin-top: 5px;
+                }
+                @media(max-width: 767px){
+                  flex-wrap: wrap;
+                }
+                li{
+                  // color: #707070;
+                  padding-bottom: 0;
+                  line-height: 0.6em;
+                  color: #707070;
+                    padding: 6px 18px;
+                    position: relative;
+                    font-family: 'helvetica_neue_lt_std65Md';
+                    @media(max-width: 1680px){
+                      padding: 6px 14px;
+                    }
+                    @media(max-width: 1366px){
+                      padding: 3px 13px;
+                    }
+                    @media(max-width: 767px){
+                      padding: 10px 13px;
+                    }
+                    &:before{
+                      content: '';
+                      position: absolute;
+                      background: #707070;
+                      width: 2px;
+                      height: 75%;
+                      top: 50%;
+                      transform: translateY(-50%);
+                      left: 0;
+                      @media (max-width:767px) {
+                        height: 50%;
+                      }
+                    }
+                    // &:hover{
+                    //   color: #0C467A;
+                    // }
+                  &:nth-child(1){
+                    padding-left: 0;
+                    &:before{
+                      display: none;
+                    }
+                  }
+                }
+              }
+            }
+            .btn-wrapper{
+              justify-content: flex-start;
+              a{
+                padding-left: 0;
+                padding-top: 44px;
+                @media(max-width: 1680px){
+                  padding-top: 28px;
+                }
+                @media(max-width: 1366px){
+                  padding-top: 25px;
+                }
+              }
+            }
+          }
+          .prod-img{
+            width: 60%;
+            position: relative;
+            margin-top: -51px;
+            // height: 550px;
+            // @media(max-width: 1080px){
+            //   height: 500px;
+            // }
+            @media(max-width: 767px){
+              width: 100%;
+              order: 1;
+              margin-top: 0;
+              // height: 435px;
+            }
+            img{
+              // position: absolute;
+              z-index: -1;
+              margin-left: auto;
+              margin-right: 0;
+            }
+          }
+        }
+        // &.prod-right{
+        //   .container{
+        //     max-width: 1630px;
+        //     margin-left: auto;
+        //     margin-right: 0;
+        //     @media(max-width: 1650px){
+        //       max-width: 85%;
+        //     }
+        //   }
+        // }
+        &:nth-child(even){
+          .container{
+            flex-direction: row-reverse;
+            margin-left: 0;
+            margin-right: auto;
+            h3{
+              padding-left: 60%;
+              @media(max-width: 767px){
+                padding-left: 0;
+              }
+            }
+            .prod-img{
+              img{
+                margin-left: 0;
+                margin-right: auto;
+                // right: auto;
+                // left: 0;
+              }
+              
+            }
+          }
+        }
+        &.laptops{
+          // padding-bottom: 207px;
+          // @media(max-width: 1800px){
+          //   padding-bottom: 130px;
+          // }
+          // @media(max-width: 1680px){
+          //   padding-bottom: 147px;
+          // }
+          // @media(max-width: 1440px){
+          //   padding-bottom: 75px;
+          // }
+          // @media(max-width: 1366px){
+          //   padding-bottom: 90px;
+          // }
+          // @media(max-width: 767px){
+          //   padding-bottom: 10px;
+          // }
+          .container{
+            .prod-img{
+              // height: 430px;
+              // @media(max-width: 1366px){
+              //   height: 365px;
+              // }
+              @media(max-width: 767px){
+                // margin-top: 0;
+                // height: 240px;
+              }
+              img{
+                // right: -85px;
+                // width: 1105px;
+                // top: -187px;
+                // @media(max-width: 1800px){
+                //   width: 996px;
+                // }
+                // @media(max-width: 1680px){
+                //   width: 920px;
+                //   right: -68px;
+                //   top: -160px;
+                // }
+                // @media(max-width: 1440px){
+                //   width: 805px;
+                //   right: -49px;
+                //   top: -151px;
+                // }
+                // @media(max-width: 1366px){
+                //   right: -41px;
+                //   width: 719px;
+                //   top: -34%;
+                // }
+                // @media(max-width: 1200px){
+                //   right: -85px;
+                // }
+                // @media(max-width: 1080px){
+                //   width: 650px;
+                // }
+                // @media(max-width: 991px){
+                //   width: 500px;
+                //   top: -28%;
+                //   right: -25px;
+                // }
+                // @media(max-width: 767px){
+                //   width: 450px;
+                //   right: auto;
+                //   left: -12%;
+                //   top: -53px;
+                // }
+              }
+            }
+          }
+        }
+        &.desktops{
+          // padding-bottom: 338px;
+          // @media(max-width: 1800px){
+          //   padding-bottom: 195px;
+          // }
+          // @media(max-width: 1680px){
+          //   padding-bottom: 230px;
+          // }
+          // @media(max-width: 1440px){
+          //   padding-bottom: 155px;
+          // }
+          // @media(max-width: 1366px){
+          //   padding-bottom: 105px;
+          // }
+          // @media(max-width: 767px){
+          //   top: 0;
+          //   padding-top: 30px;
+          //   padding-bottom: 10px;
+          // }
+          .container{
+            .prod-img{
+              // margin-top: -120px;
+              @media(max-width: 767px){
+                // height: 306px;
+                // margin-top: -5px;
+              }
+              img{
+                // width: 1105px;
+                // left: auto;
+                // right: -28%;
+                // top: -11%;
+                // @media(max-width: 1800px){
+                //   width: 970px;
+                //   top: -7%;
+                // }
+                // @media(max-width: 1680px){
+                //   width: 910px;
+                //   top: -5%;
+                // }
+                // @media(max-width: 1440px){
+                //   width: 815px;
+                //   top: -3%;
+                // }
+                // @media(max-width: 1366px){
+                //   width: 742px;
+                //   top: 0;
+                //   right: -29%;
+                // }
+                // @media(max-width: 1080px){
+                //   width: 680px;
+                // }
+                // @media(max-width: 991px){
+                //   width: 710px;
+                //   top: -2%;
+                //   right: -44%;
+                // }
+                // @media(max-width: 767px){
+                //   top: 0;
+                //   right: -29%;
+                //   width: 450px;
+                // }
+              }
+            }
+          }
+        }
+        &.all-in-ones{
+          position: relative;
+          overflow-x: clip;
+          // padding-bottom: 350px;
+          // @media(max-width: 1800px){
+          //   padding-bottom: 250px;
+          // }
+          // @media(max-width: 1680px){
+          //   padding-bottom: 160px;
+          // }
+          // @media(max-width: 1440px){
+          //   padding-bottom: 45px;
+          // }
+          // @media(max-width: 1366px){
+          //   padding-bottom: 39px;
+          // }
+          // @media(max-width: 991px){
+          //   margin-top: 5%;
+          // }
+          // @media(max-width: 767px){
+          //   margin-top: 0;
+          //   padding-top: 30px;
+          //   padding-bottom: 0;
+          // }
+          .container{
+            .prod-img{
+              @media(max-width: 767px){
+                // height: 317px;
+                // margin-top: 0;
+              }
+              img{
+                // right: 27px;
+                // width: 1105px;
+                // top: -59%;
+                // @media(max-width: 1800px){
+                //   width: 1020px;
+                // }
+                // @media(max-width: 1680px){
+                //   width: 950px;
+                // }
+                // @media(max-width: 1440px){
+                //   width: 855px;
+                //   right: 0;
+                // }
+                // @media(max-width: 1366px){
+                //   right: 9px;
+                //   width: 750px;
+                //   top: -40%;
+                // }
+                // @media(max-width: 1200px){
+                //   right: 0;
+                //   width: 720px;
+                //   top: -46%;
+                // }
+                // @media(max-width: 1080px){
+                //   width: 650px;
+                // }
+                // @media(max-width: 991px){
+                //   top: -38%;
+                //   width: 600px;
+                // }
+                // @media(max-width: 767px){
+                //   width: 450px;
+                //   right: -49px;
+                //   top: -48px;
+                // }
+              }
+            }
+          }
+          &:before{
+            content: '';
+            // background-image: url(../img/curve2.svg);
+            background-image: url(../img/display-left-curve.svg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: absolute;
+            left: -268px;
+           // added by pradnya - 7-10-2023
+           bottom: -220px;
+           // added by pradnya - 7-10-2023
+            width: 985px;
+            height: 775px;
+            z-index: -1;
+            // added by pradnya - 7-10-2023
+            @media(max-width: 1800px){
+              bottom: -144px;
+            }
+            // added by pradnya - 7-10-2023
+            @media(max-width: 1680px){
+              left: -268px;
+              bottom: -203px;
+              width: 915px;
+              height: 740px;
+            }
+            @media(max-width: 1366px){
+              left: -167px;
+              bottom: -110px;
+              width: 573px;
+              height: 460px;
+            }
+            @media(max-width: 1080px){
+              left: -140px;
+              bottom: -71px;
+              width: 541px;
+              height: 426px;
+            }
+            @media(max-width: 991px){
+              left: -174px;
+              bottom: -130px;
+              height: 400px;
+            }
+            @media(max-width: 767px){
+              left: -199px;
+              bottom: -185px;
+              height: 376px;
+            }
+          }
+        }
+        &.displays{
+          margin-top: 0;
+          // padding-bottom: 175px;
+          // @media(max-width: 1800px){
+          //   padding-bottom: 100px;
+          // }
+          // @media(max-width: 1680px){
+          //   padding-bottom: 40px;
+          // }
+          // @media(max-width: 1440px){
+          //   padding-bottom: 0;
+          // }
+          // @media(max-width: 1080px){
+          //   margin-top: 3%;
+          // }
+          // @media(max-width: 767px){
+          //   margin-top: 0;
+          //   padding-top: 30px;
+          // }
+          .container{
+            @media(max-width: 1440px){
+              padding-top: 0;
+            }
+            // @media(max-width: 1336px){
+            //   padding-top: 35px;
+            // }
+            // @media(max-width: 767px){
+            //   padding-top: 0px;
+            // }
+            .prod-img{
+              @media(max-width: 767px){
+                // margin-top: 0;
+                // height: 277px;
+              }
+              img{
+                // width: 1105px;
+                // left: auto;
+                // right: -15%;
+                // top: -54%;
+                // @media(max-width: 1800px){
+                //   width: 950px;
+                // }
+                // @media(max-width: 1680px){
+                //   width: 910px;
+                //   top: -45%;
+                // }
+                // @media(max-width: 1440px){
+                //   width: 815px;
+                //   top: -41%;
+                // }
+                // @media(max-width: 1366px){
+                //   width: 715px;
+                //   top: -36%;
+                // }
+                // @media(max-width: 1080px){
+                //   width: 650px;
+                // }
+                // @media(max-width: 991px){
+                //   width: 500px;
+                //   top: -28%;
+                // }
+                // @media(max-width: 767px){
+                //   top: -51px;
+                //   width: 450px;
+                // }
+              }
+            }
+          }
+        }
+        &.tablets{
+          margin-top: 0;
+          position: relative;
+          overflow-x: clip;
+          // padding-bottom: 190px;
+          // @media(max-width: 1680px){
+          //   padding-bottom: 70px;
+          // }
+          // @media(max-width: 1440px){
+          //   padding-bottom: 0px;
+          // }
+          // @media(max-width: 1366px){
+          //   margin-top: -8%;
+          //   padding-bottom: 0;
+          // }
+          // @media(max-width: 767px){
+          //   margin-top: 0;
+          //   padding-top: 30px;
+          //   padding-bottom: 30px;
+          // }
+          .container{
+            .prod-img{
+              // @media(max-width: 767px){
+              //   height: 255px;
+              // }
+              img{
+                // width: 1105px;
+                // right: 43px;
+                // top: -29%;
+                // @media(max-width: 1800px){
+                //   width: 1035px;
+                //   right: 0;
+                // }
+                // @media(max-width: 1680px){
+                //   width: 970px;
+                // }
+                // @media(max-width: 1440px){
+                //   width: 890px;
+                // }
+                // @media(max-width: 1366px){
+                //   width: 765px;
+                //   top: -19%;
+                //   right: 0;
+                // }
+                // @media(max-width: 1200px){
+                //   width: 680px;
+                // }
+                // @media(max-width: 1080px){
+                //   width: 600px;
+                //   right: 5%;
+                //   top: -29%;
+                // }
+                // @media(max-width: 991px){
+                //   width: 500px;
+                //   right: 0;
+                //   top: -17%;
+                // }
+                // @media(max-width: 767px){
+                //   width: 470px;
+                //   right: -14%;
+                //   top: -43px;
+                // }
+              }
+            }
+          }
+          &:before{
+            content: '';
+            // background-image: url(../img/curve3.svg);
+            background-image: url(../img/tablets-right-curve.svg);
+            position: absolute;
+            right: -440px;
+            top: -567px;
+            width: 1008px;
+            height: 876px;
+            transform: rotate(37deg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: -1;
+            @media(max-width: 1680px){
+              right: -440px;
+              top: -506px;
+              width: 944px;
+              height: 689px;
+            }
+            @media(max-width: 1366px){
+              right: -164px;
+              top: -250px;
+              width: 600px;
+              height: 460px;
+              transform: rotate(40deg);
+              // transform: none;
+            }
+            @media(max-width: 1290px){
+              right: -276px;
+              top: -323px;
+              width: 642px;
+              height: 514px;
+            }
+            @media(max-width: 1080px){
+              top: -285px;
+              width: 550px;
+              height: 460px;
+              right: 0px !important;
+              transform: rotate(90deg);
+            }
+            @media(max-width: 991px){
+              top: -205px;
+              width: 350px;
+              height: 350px;
+              right: 50px !important;
+              transform: rotate(80deg);
+            }
+            @media(max-width: 767px){
+              top: -126px;
+              width: 350px;
+              height: 300px;
+              right: 0px !important;
+              transform: rotate(90deg);
+            }
+            @media(max-width: 320px){
+             right: -46% !important;
+            }
+          }
+        }
+        &.gaming{
+          margin-top: 0px;
+          // padding-bottom: 240px;
+          // @media(max-width: 1800px){
+          //   padding-bottom: 200px;
+          // }
+          // @media(max-width: 1680px){
+          //   padding-bottom: 100px;
+          // }
+          // @media(max-width: 1440px){
+          //   padding-bottom: 0px;
+          // }
+          // @media(max-width: 1366px){
+          //   margin-top: -45px;
+          //   padding-bottom: 0;
+          // }
+          // @media(max-width: 767px){
+          //   margin-top: 0;
+          //   padding-bottom: 30px;
+          // }
+          .container{
+            .prod-img{
+              @media(max-width: 767px){
+                // height: 317px;
+                margin-top: 20px;
+              }
+              img{
+                // width: 830px;
+                // top: -36%;
+                // left: auto;
+                // right: 60px;
+                // @media(max-width: 1800px){
+                //   width: 710px;
+                //   top: -30%;
+                // }
+                // @media(max-width: 1680px){
+                //   width: 690px;
+                //   right: 47px;
+                // }
+                // @media(max-width: 1440px){
+                //   width: 610px;
+                // }
+                // @media(max-width: 1366px){
+                //   width: 545px;
+                //   top: -24%;
+                //   right: 40px;
+                // }
+                // @media(max-width: 1080px){
+                //   width: 500px;
+                // }
+                // @media(max-width: 991px){
+                //   width: 450px;
+                //   top: -18%;
+                // }
+                // @media(max-width: 767px){
+                //   width: 322px;
+                //   right: 20px;
+                //   top: 0;
+                // }
+              }
+            }
+          }
+        }
+        &.workstations{
+          margin-top: 0;
+          position: relative;
+          overflow-x: clip;
+          // @media(max-width: 1366px){
+          //   margin-top: -2.5%;
+          // }
+          // @media(max-width: 1200px){
+          //   margin-top: -7%;
+          // }
+          // @media(max-width: 767px){
+          //   margin-top: 0;
+          // }
+          .container{
+            .product-txt{
+              // width: 33%;
+              // @media(max-width: 1080px){
+              //   width: 40%;
+              // }
+              // @media(max-width: 767px){
+              //   width: 100%;
+              // }
+            }
+            .prod-img{
+              // height: 365px;
+              // @media(max-width: 1200px){
+              //   width: 55%;
+              // }
+              // @media(max-width: 1080px){
+              //   width: 50%;
+              // }
+              @media(max-width: 767px){
+                // width: 100%;
+                // height: 210px;
+              }
+              img{
+                // width: 900px;
+                // top: -54%;
+                // right: -10px;
+                // @media(max-width: 1800px){
+                //   width: 780px;
+                // }
+                // @media(max-width: 1680px){
+                //   width: 745px;
+                // }
+                // @media(max-width: 1440px){
+                //   width: 665px;
+                // }
+                // @media(max-width: 1366px){
+                //   width: 605px;
+                //   top: -31%;
+                // }
+                // @media(max-width: 1200px){
+                //   right: -80px;
+                // }
+                // @media(max-width: 1080px){
+                //   width: 480px;
+                //   right: -73px;
+                // }
+                // @media(max-width: 991px){
+                //   width: 400px;
+                //   right: -41px;
+                //   top: -19%;
+                // }
+                // @media(max-width: 767px){
+                //   width: 349px;
+                //   right: 0;
+                //   top: -43px;
+                // }
+              }
+            }
+          }
+          &:before{
+            content: '';
+            background-image: url(../img/workstation-right-curve.svg);
+            position: absolute;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 946px;
+            height: 679px;
+            right: -402px;
+            // added by pradnya - 7-10-2023
+            top: -520px;
+            // added by pradnya - 7-10-2023
+            z-index: -1;
+            @media(max-width: 1800px){
+              width: 928px;
+              height: 752px;
+              // added by pradnya - 7-10-2023
+              top: -551px;
+              // added by pradnya - 7-10-2023
+            }
+            @media(max-width: 1680px){
+              width: 807px;
+              height: 761px;
+              right: -312px;
+              top: -505px;
+            }
+            @media(max-width: 1366px){
+              width: 494px;
+              height: 655px;
+              right: -55px;
+              top: -341px;
+            }
+            @media(max-width: 1080px){
+              // right: -165px;
+              right: 0;
+              top: -250px;
+            }
+            @media(max-width: 991px){
+              // right: -165px;
+              right: 0;
+              top: -356px;
+              width: 402px;
+              height: 508px;
+            }
+            @media(max-width: 767px){
+              width: 300px;
+              height: 275px;
+              top: -122px;
+            }
+            @media(max-width: 320px){
+             right: -48%;
+            }
+          }
+          &:after{
+            content: '';
+            // background-image: url(../img/curve4.svg);
+            background-image: url(../img/footer-left-curve.svg);
+            position: absolute;
+            left: -310px;
+            bottom: -233px;
+            width: 1000px;
+            height: 830px;
+            z-index: -1;
+            background-size: cover;
+            background-repeat: no-repeat;
+            @media(max-width: 1800px){
+              left: -310px;
+              bottom: -197px;
+              width: 939px;
+              height: 760px;
+            }
+            @media(max-width: 1680px){
+              left: -342px;
+              bottom: -158px;
+              width: 885px;
+              height: 702px;
+            }
+            @media(max-width: 1366px){
+              left: -171px;
+              bottom: -127px;
+              width: 550px;
+              height: 500px;
+            }
+            @media(max-width: 1080px){
+              left: -141px;
+              bottom: -80px;
+              width: 500px;
+              height: 450px;
+            }
+            @media(max-width: 767px){
+              left: -130px;
+              bottom: -107px;
+              width: 400px;
+              height: 350px;
+            }
+          }
+        }
+        &:last-child{
+          padding-bottom: 110px;
+          // added by pradnya - 7-10-2023
+          @media(max-width: 1366px){
+            padding-bottom: 135px;
+          }
+          // added by pradnya - 7-10-2023
+          @media(max-width: 1200px){
+            padding-bottom: 150px;
+          }
+          @media(max-width: 1080px){
+            padding-bottom: 100px;
+          }
+          @media(max-width: 767px){
+            padding-bottom: 50px;
+          }
+        }
+      }
+    }
+  }
+   // added by pradnya - 7-10-2023
+   .printer-list{
+    .list{
+      > li{
+        .container{
+          .prod-img{
+            @media(max-width: 767px){
+              margin-top: 15px;
+            }
+            img{
+              width: 80%;
+              margin-left: 0;
+              margin-right: auto;
+            }
+          }
+        }
+        &:nth-child(even){
+          .container{
+            .prod-img{
+              img{
+                @media(min-width: 768px){
+                  margin-left: auto;
+                  margin-right: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  // added by pradnya - 7-10-2023
+}

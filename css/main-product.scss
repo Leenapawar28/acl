@@ -1,0 +1,266 @@
+
+
+.prod-brand-detail ul li,.prod-top-intro{
+  display: flex;
+  align-items: flex-start;
+  @media(max-width: 767px){
+    flex-direction: column;
+  }
+  .left{
+    width: 37%;
+    @media(max-width: 1680px){
+      width: 36%;
+    }
+    @media(max-width: 1440px){
+      width: 38%;
+    }
+    @media(max-width: 1366px){
+      width: 40%;
+    }
+    @media(max-width: 1200px){
+      width: 35%;
+    }
+    @media(max-width: 991px){
+      width: 36%;
+    }
+    @media(max-width: 767px){
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    h2{
+      padding-top: 44px;
+      text-align: left;
+      margin-bottom: 5px;
+      font-family: 'helvetica_neue_lt_std75_bold';
+      @media(max-width: 1366px){
+        padding-top: 30px;
+      }
+      @media(max-width: 767px){
+        margin-bottom: 15px;
+      }
+      &:before{
+        width: 60px;
+        top: 0;
+        left: 3px;
+        transform: none;
+        @media(max-width: 1366px){
+          width: 40px;
+        }
+      }
+    }
+  }
+  .right{
+    width: 60%;
+    margin-left: 45px;
+    @media(max-width: 1080px){
+      margin-left: 35px;
+    }
+    @media(max-width: 1366px){
+      width: 60%;
+      margin-left: 45px;
+    }
+    @media(max-width: 1200px){
+      width: 65%;
+    }
+    @media(max-width: 991px){
+      width: 56%;
+    }
+    @media(max-width: 767px){
+      width: 100%;
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+}
+.product-detail-wrapper{
+  padding-top: 180px;
+  position: relative;
+  overflow-x: clip;
+  @media(max-width: 1440px){
+    padding-top: 140px;
+  }
+  @media(max-width: 1200px){
+    padding-top: 100px;
+  }
+  @media(max-width: 991px){
+    padding-top: 90px;
+  }
+  @media(max-width: 767px){
+    padding-top: 50px;
+  }
+  .container{
+    max-width: 1330px;
+    margin: 0 auto;
+    @media(max-width: 1680px){
+      max-width: 73%;
+    }
+    @media(max-width: 1200px){
+      max-width: 80%;
+    }
+    @media(max-width: 1080px){
+      max-width: 90%;
+    }
+    @media(max-width: 767px){
+      max-width: 100%;
+      padding: 0 20px;
+    }
+    .prod-top-intro{
+      .right{
+        margin-top: -15px;
+        @media(max-width: 767px){
+          margin-top: 0;
+          // added by pradnya - 7-10-2023
+          text-align: left;
+          // added by pradnya - 7-10-2023
+        }
+      }
+    }
+    .prod-brand-detail{
+      margin-top: 46px;
+      padding-bottom: 105px;
+      @media(max-width: 1440px){
+        margin-top: 46px;
+        padding-bottom: 105px;
+      }
+      @media(max-width: 1200px){
+        padding-bottom: 90px;
+      }
+      @media(max-width: 991px){
+        padding-bottom: 70px;
+      }
+      @media(max-width: 767px){
+        padding-bottom: 50px;
+      }
+      ul{
+        li{
+          margin-bottom: 40px;
+          .left{
+            img{
+              max-width: 60%;
+              @media(max-width: 991px){
+                max-width: 70%;
+              }
+              @media(max-width: 767px){
+                max-width: 60%;
+              }
+            }
+          }
+          .right{
+            h4{
+              color: #2E2E2E;
+              margin-bottom: 5px;
+              // added by pradnya - 7-10-2023
+              @media(max-width: 767px){
+                font-size: 20px;
+              }
+              // added by pradnya - 7-10-2023
+            }
+            p{
+              &:last-child{
+                margin-bottom: 0;
+              }
+            }
+          }
+          &:last-child{
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+  &:before{
+    content: '';
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-image: url('../img/laptop-top-right-curve-v1.svg');
+    background-image: url('../img/laptop-top-right-curve.svg');
+    z-index: -1;
+    right: -226px;
+    top: -126px;
+    width: 817px;
+    height: 642px;
+    @media(max-width: 1680px){
+      right: -197px;
+      top: -104px;
+      width: 732px;
+      height: 552px;
+    }
+    @media(max-width: 1440px){
+      right: -171px;
+      top: -90px;
+      width: 604px;
+      height: 447px;
+    }
+    @media(max-width: 1366px){
+      right: -156px;
+      top: -90px;
+      width: 571px;
+      height: 408px;
+    }
+    @media(max-width: 1080px){
+      right: -149px;
+      top: -90px;
+      width: 540px;
+      height: 393px;
+    }
+    @media(max-width: 767px){
+      right: -132px;
+      top: -97px;
+      width: 476px;
+      height: 391px;
+    }
+    @media(max-width: 320px){
+      width: 367px;
+      height: 325px;
+    }
+  }
+  &:after{
+    content: '';
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/laptop-btm-left-curve.svg');
+    z-index: -1;
+    left: -176px;
+    bottom: -99px;
+    width: 776px;
+    height: 726px;
+    transform: rotate(27deg);
+    @media(max-width: 1680px){
+      left: -162px;
+      bottom: -94px;
+      width: 724px;
+      height: 684px;
+    }
+    @media(max-width: 1440px){
+      left: -156px;
+      bottom: -90px;
+      width: 681px;
+      height: 643px;
+    }
+    @media(max-width: 1366px){
+      left: -140px;
+      bottom: -51px;
+      width: 587px;
+      height: 522px;
+    }
+    @media(max-width: 1080px){
+      left: -156px;
+      bottom: -90px;
+      width: 653px;
+      height: 604px;
+    }
+    @media(max-width: 767px){
+      left: -119px;
+      bottom: -93px;
+      width: 470px;
+      height: 450px;
+    }
+    @media(max-width: 320px){
+      width: 340px;
+      height: 307px;
+    }
+  }
+}

@@ -1,0 +1,336 @@
+.prod-brand-detail ul li, .prod-top-intro {
+  display: flex;
+  align-items: flex-start;
+}
+@media (max-width: 767px) {
+  .prod-brand-detail ul li, .prod-top-intro {
+    flex-direction: column;
+  }
+}
+.prod-brand-detail ul li .left, .prod-top-intro .left {
+  width: 37%;
+}
+@media (max-width: 1680px) {
+  .prod-brand-detail ul li .left, .prod-top-intro .left {
+    width: 36%;
+  }
+}
+@media (max-width: 1440px) {
+  .prod-brand-detail ul li .left, .prod-top-intro .left {
+    width: 38%;
+  }
+}
+@media (max-width: 1366px) {
+  .prod-brand-detail ul li .left, .prod-top-intro .left {
+    width: 40%;
+  }
+}
+@media (max-width: 1200px) {
+  .prod-brand-detail ul li .left, .prod-top-intro .left {
+    width: 35%;
+  }
+}
+@media (max-width: 991px) {
+  .prod-brand-detail ul li .left, .prod-top-intro .left {
+    width: 36%;
+  }
+}
+@media (max-width: 767px) {
+  .prod-brand-detail ul li .left, .prod-top-intro .left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+.prod-brand-detail ul li .left h2, .prod-top-intro .left h2 {
+  padding-top: 44px;
+  text-align: left;
+  margin-bottom: 5px;
+  font-family: "helvetica_neue_lt_std75_bold";
+}
+@media (max-width: 1366px) {
+  .prod-brand-detail ul li .left h2, .prod-top-intro .left h2 {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .prod-brand-detail ul li .left h2, .prod-top-intro .left h2 {
+    margin-bottom: 15px;
+  }
+}
+.prod-brand-detail ul li .left h2:before, .prod-top-intro .left h2:before {
+  width: 60px;
+  top: 0;
+  left: 3px;
+  transform: none;
+}
+@media (max-width: 1366px) {
+  .prod-brand-detail ul li .left h2:before, .prod-top-intro .left h2:before {
+    width: 40px;
+  }
+}
+.prod-brand-detail ul li .right, .prod-top-intro .right {
+  width: 60%;
+  margin-left: 45px;
+}
+@media (max-width: 1080px) {
+  .prod-brand-detail ul li .right, .prod-top-intro .right {
+    margin-left: 35px;
+  }
+}
+@media (max-width: 1366px) {
+  .prod-brand-detail ul li .right, .prod-top-intro .right {
+    width: 60%;
+    margin-left: 45px;
+  }
+}
+@media (max-width: 1200px) {
+  .prod-brand-detail ul li .right, .prod-top-intro .right {
+    width: 65%;
+  }
+}
+@media (max-width: 991px) {
+  .prod-brand-detail ul li .right, .prod-top-intro .right {
+    width: 56%;
+  }
+}
+@media (max-width: 767px) {
+  .prod-brand-detail ul li .right, .prod-top-intro .right {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+.product-detail-wrapper {
+  padding-top: 180px;
+  position: relative;
+  overflow-x: clip;
+}
+@media (max-width: 1440px) {
+  .product-detail-wrapper {
+    padding-top: 140px;
+  }
+}
+@media (max-width: 1200px) {
+  .product-detail-wrapper {
+    padding-top: 100px;
+  }
+}
+@media (max-width: 991px) {
+  .product-detail-wrapper {
+    padding-top: 90px;
+  }
+}
+@media (max-width: 767px) {
+  .product-detail-wrapper {
+    padding-top: 50px;
+  }
+}
+.product-detail-wrapper .container {
+  max-width: 1330px;
+  margin: 0 auto;
+}
+@media (max-width: 1680px) {
+  .product-detail-wrapper .container {
+    max-width: 73%;
+  }
+}
+@media (max-width: 1200px) {
+  .product-detail-wrapper .container {
+    max-width: 80%;
+  }
+}
+@media (max-width: 1080px) {
+  .product-detail-wrapper .container {
+    max-width: 90%;
+  }
+}
+@media (max-width: 767px) {
+  .product-detail-wrapper .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+.product-detail-wrapper .container .prod-top-intro .right {
+  margin-top: -15px;
+}
+@media (max-width: 767px) {
+  .product-detail-wrapper .container .prod-top-intro .right {
+    margin-top: 0;
+    text-align: left;
+  }
+}
+.product-detail-wrapper .container .prod-brand-detail {
+  margin-top: 46px;
+  padding-bottom: 105px;
+}
+@media (max-width: 1440px) {
+  .product-detail-wrapper .container .prod-brand-detail {
+    margin-top: 46px;
+    padding-bottom: 105px;
+  }
+}
+@media (max-width: 1200px) {
+  .product-detail-wrapper .container .prod-brand-detail {
+    padding-bottom: 90px;
+  }
+}
+@media (max-width: 991px) {
+  .product-detail-wrapper .container .prod-brand-detail {
+    padding-bottom: 70px;
+  }
+}
+@media (max-width: 767px) {
+  .product-detail-wrapper .container .prod-brand-detail {
+    padding-bottom: 50px;
+  }
+}
+.product-detail-wrapper .container .prod-brand-detail ul li {
+  margin-bottom: 40px;
+}
+.product-detail-wrapper .container .prod-brand-detail ul li .left img {
+  max-width: 60%;
+}
+@media (max-width: 991px) {
+  .product-detail-wrapper .container .prod-brand-detail ul li .left img {
+    max-width: 70%;
+  }
+}
+@media (max-width: 767px) {
+  .product-detail-wrapper .container .prod-brand-detail ul li .left img {
+    max-width: 60%;
+  }
+}
+.product-detail-wrapper .container .prod-brand-detail ul li .right h4 {
+  color: #2E2E2E;
+  margin-bottom: 5px;
+}
+@media (max-width: 767px) {
+  .product-detail-wrapper .container .prod-brand-detail ul li .right h4 {
+    font-size: 20px;
+  }
+}
+.product-detail-wrapper .container .prod-brand-detail ul li .right p:last-child {
+  margin-bottom: 0;
+}
+.product-detail-wrapper .container .prod-brand-detail ul li:last-child {
+  margin-bottom: 0;
+}
+.product-detail-wrapper:before {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/laptop-top-right-curve.svg");
+  z-index: -1;
+  right: -226px;
+  top: -126px;
+  width: 817px;
+  height: 642px;
+}
+@media (max-width: 1680px) {
+  .product-detail-wrapper:before {
+    right: -197px;
+    top: -104px;
+    width: 732px;
+    height: 552px;
+  }
+}
+@media (max-width: 1440px) {
+  .product-detail-wrapper:before {
+    right: -171px;
+    top: -90px;
+    width: 604px;
+    height: 447px;
+  }
+}
+@media (max-width: 1366px) {
+  .product-detail-wrapper:before {
+    right: -156px;
+    top: -90px;
+    width: 571px;
+    height: 408px;
+  }
+}
+@media (max-width: 1080px) {
+  .product-detail-wrapper:before {
+    right: -149px;
+    top: -90px;
+    width: 540px;
+    height: 393px;
+  }
+}
+@media (max-width: 767px) {
+  .product-detail-wrapper:before {
+    right: -132px;
+    top: -97px;
+    width: 476px;
+    height: 391px;
+  }
+}
+@media (max-width: 320px) {
+  .product-detail-wrapper:before {
+    width: 367px;
+    height: 325px;
+  }
+}
+.product-detail-wrapper:after {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/laptop-btm-left-curve.svg");
+  z-index: -1;
+  left: -176px;
+  bottom: -99px;
+  width: 776px;
+  height: 726px;
+  transform: rotate(27deg);
+}
+@media (max-width: 1680px) {
+  .product-detail-wrapper:after {
+    left: -162px;
+    bottom: -94px;
+    width: 724px;
+    height: 684px;
+  }
+}
+@media (max-width: 1440px) {
+  .product-detail-wrapper:after {
+    left: -156px;
+    bottom: -90px;
+    width: 681px;
+    height: 643px;
+  }
+}
+@media (max-width: 1366px) {
+  .product-detail-wrapper:after {
+    left: -140px;
+    bottom: -51px;
+    width: 587px;
+    height: 522px;
+  }
+}
+@media (max-width: 1080px) {
+  .product-detail-wrapper:after {
+    left: -156px;
+    bottom: -90px;
+    width: 653px;
+    height: 604px;
+  }
+}
+@media (max-width: 767px) {
+  .product-detail-wrapper:after {
+    left: -119px;
+    bottom: -93px;
+    width: 470px;
+    height: 450px;
+  }
+}
+@media (max-width: 320px) {
+  .product-detail-wrapper:after {
+    width: 340px;
+    height: 307px;
+  }
+}/*# sourceMappingURL=main-product.css.map */

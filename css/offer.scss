@@ -1,0 +1,200 @@
+.offer-head{
+  justify-content: center;
+  h1{
+    margin-bottom: 0;
+  }
+}
+.offer-wrapper{
+  padding-top: 150px;
+  padding-bottom: 190px;
+  position: relative;
+  overflow-x: clip;
+  @media(max-width: 1440px){
+    padding-top: 120px;
+    padding-bottom: 115px;
+  }
+  @media(max-width: 1080px){
+    padding-top: 90px;
+    padding-bottom: 70px;
+  }
+  @media(max-width: 767px){
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .container{
+    max-width: 1330px;
+    @media(max-width: 1680px){
+      max-width: 70%;
+    }
+    @media(max-width: 1200px){
+      max-width: 85%;
+    }
+    @media(max-width: 991px){
+      max-width: 90%;
+    }
+    @media(max-width: 767px){
+      max-width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    > .list{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-left: -70px;
+      margin-right: -70px;
+      padding-bottom: 50px;
+      @media(max-width: 1440px){
+        padding-bottom: 20px;
+      }
+      @media(max-width: 991px){
+        margin-left: -60px;
+        margin-right: -60px;
+      }
+      @media(max-width: 800px){
+        margin-left: -55px;
+        margin-right: -55px;
+      }
+      @media(max-width: 767px){
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+      li{
+        width: 35.5%;
+        margin: 0 70px 90px;
+        @media(max-width:1440px){
+          margin: 0 70px 65px;
+        }
+        @media(max-width:991px){
+          margin: 0 60px 55px;
+        }
+        @media(max-width:800px){
+          margin: 0 55px 55px;
+        }
+        @media(max-width: 767px){
+          width: 100%;
+          margin: 0 0 30px;
+        }
+        h5{
+          margin: 0;
+          margin-bottom: 10px;
+          font-family: 'helvetica_neue_lt_std55_roman';
+          font-size: 30px;
+          color: #2E2E2E;
+          @media(max-width: 1680px){
+            font-size: 26px;
+          }
+          @media(max-width: 1440px){
+            font-size: 22px;
+          }
+          @media(max-width: 1366px){
+            font-size: 20px;
+          }
+          @media(max-width: 1280px){
+            font-size: 20px;
+          }
+          @media(max-width: 1024px){
+            font-size: 16px;
+          }
+          @media(max-width: 767px){
+            font-size: 14px;
+          }
+        }
+        p{
+          font-family: 'helvetica_neue_lt_std55_roman';
+          line-height: 1.65em;
+          margin-bottom: 12px;
+        }
+        .offer-author{
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  &:before{
+    content: '';
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-image: url('../img/laptop-top-right-curve-v1.svg');
+    background-image: url('../img/laptop-top-right-curve.svg');
+    z-index: -1;
+    right: -226px;
+    top: -126px;
+    width: 817px;
+    height: 642px;
+    @media(max-width: 1680px){
+      right: -197px;
+      top: -104px;
+      width: 732px;
+      height: 552px;
+    }
+    @media(max-width: 1440px){
+      right: -171px;
+      top: -90px;
+      width: 604px;
+      height: 447px;
+    }
+    @media(max-width: 1366px){
+      right: -156px;
+      top: -90px;
+      width: 571px;
+      height: 436px;
+    }
+    @media(max-width: 1080px){
+      right: -149px;
+      top: -90px;
+      width: 540px;
+      height: 393px;
+    }
+    @media(max-width: 767px){
+      right: -132px;
+      top: -97px;
+      width: 476px;
+      height: 391px;
+    }
+  }
+  &:after{
+    content: '';
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/laptop-btm-left-curve.svg');
+    z-index: -1;
+    left: -176px;
+    bottom: -99px;
+    width: 776px;
+    height: 726px;
+    transform: rotate(27deg);
+    @media(max-width: 1680px){
+      left: -162px;
+      bottom: -94px;
+      width: 724px;
+      height: 684px;
+    }
+    @media(max-width: 1440px){
+      left: -156px;
+      bottom: -90px;
+      width: 681px;
+      height: 643px;
+    }
+    @media(max-width: 1366px){
+      left: -140px;
+      bottom: -51px;
+      width: 587px;
+      height: 522px;
+    }
+    @media(max-width: 1080px){
+      left: -156px;
+      bottom: -90px;
+      width: 653px;
+      height: 604px;
+    }
+    @media(max-width: 767px){
+      left: -119px;
+      bottom: -93px;
+      width: 470px;
+      height: 450px;
+    }
+  }
+}
